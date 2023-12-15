@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		
+		*, body {
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  height: 100px;
+  width: 45%;
+  color: #fff;
+  font-size: 24px;
+  line-height: 100px; /* centering text just for view */
+  text-align: center;
+  background-color: grey;
+  margin: 5px;
+  border: 1px solid lightgrey;
+  display: none;
+}
+#loadMore {
+  width: 200px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: blue;
+  transition: .3s;
+}
+#loadMore:hover {
+  color: blue;
+  background-color: #fff;
+  border: 1px solid blue;
+  text-decoration: none;
+}
+.noContent {
+  color: #000 !important;
+  background-color: transparent !important;
+  pointer-events: none;
+}
+	</style>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="flex">
+    <div class="content">Box 1</div>
+    <div class="content">Box 2</div>
+    <div class="content">Box 3</div>
+    <div class="content">Box 4</div>
+    <div class="content">Box 5</div>
+    <div class="content">Box 6</div>
+    <div class="content">Box 7</div>
+    <div class="content">Box 8</div>
+    <div class="content">Box 9</div>
+    <div class="content">Box 10</div>
+    <div class="content">Box 11</div>
+    <div class="content">Box 12</div>
+    <div class="content">Box 13</div>
+    <div class="content">Box 14</div>
+    <div class="content">Box 15</div>
+    <div class="content">Box 16</div>
+  </div>
+  
+  <a href="#" id="loadMore">Load More</a>
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+  $(".content").slice(0, 4).show();
+  $("#loadMore").on("click", function(e){
+    e.preventDefault();
+    $(".content:hidden").slice(0, 2).slideDown();
+    if($(".content:hidden").length == 0) {
+      $("#loadMore").text("No Content").addClass("noContent");
+    }
+  });
+  
+})
+
+</script>
+</body>
+</html>
+
+
+
+
+java script 
+
+<html lang="en">
+<head>
+    <title>How To Create Javascript Load More Content On Click Button</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+Add CSS
+<style>
+.list {
+    margin: 0px auto;
+    width: 80%;
+    box-sizing: border-box;
+}
+.list-element {
+    width: 100%;
+    margin: 25px 0px;
+    font-family: arial;
+    border-radius: 50px;
+    padding: 10px 0px;
+    color: #2196f3;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 6px 0px #848484;
+    display: none;
+}
+#loadmore {
+    margin: 50px auto 0px;
+    display: table;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #2196f3;
+}
+.list .list-element:nth-child(1) {
+    display: block;
+}
+.list .list-element:nth-child(2) {
+    display: block;
+}
+</style>
+</head>
+<body>
+	<!-- List of your items -->
+	<div class="list">
+	    <div class="list-element">Product 1</div>
+	    <div class="list-element">Product 2</div>
+	    <div class="list-element">Product 3</div>
+	    <div class="list-element">Product 4</div>
+	    <div class="list-element">Product 5</div>
+	    <div class="list-element">Product 6</div>
+	    <div class="list-element">Product 3</div>
+	    <div class="list-element">Product 4</div>
+	    <div class="list-element">Product 5</div>
+	    <div class="list-element">Product 6</div>
+	</div>
+
+	<!-- Load More Button -->
+	<button id="loadmore">Load More...</button>
+Add JavaScript
+<script>
+const loadmore = document.querySelector('#loadmore');
+    let currentItems = 2;
+    loadmore.addEventListener('click', (e) => {
+        const elementList = [...document.querySelectorAll('.list .list-element')];
+        for (let i = currentItems; i < currentItems + 2; i++) {
+            if (elementList[i]) {
+                elementList[i].style.display = 'block';
+            }
+        }
+        currentItems += 2;
+
+        // Load more button will be hidden after list fully loaded
+        if (currentItems >= elementList.length) {
+            event.target.style.display = 'none';
+        }
+    })
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+
+project Red Pocket -------------------------------------------------------------------------------------------13 feb 2021
+
+Theme : [Recent] UpdateLayout | debut_10/02/22
+URL: https://gp866h2dewiek25s-23812127.shopifypreview.com/products/chocolate-caramel-brittle
+
+Desktop view :https://www.screencast.com/t/K1RpF9xjmA
+Mobile View : https://www.screencast.com/t/vUFcwOSHsEDD
+
+
+Instruction to add product
+Step 1 : https://www.screencast.com/t/8qkP7ar8ns
+Step 2 : https://www.screencast.com/t/n2A5jSf5jJkM
+Step 3 : https://www.screencast.com/t/e5HVGHtSs
+Step 4 :  https://www.screencast.com/t/TgwWz26RxP
+Step 5 : https://www.screencast.com/t/UcFzSaocFzc 
+
+Requirement
+We would like to just the Product Page, Cart page, Payment-Info Page and create the add-to-cart IDs for 29 products. 
+
+Kindly see the attached User Requirement Sheet & Product List for your reference. 
+
+PRODUCT PAGE[ Desktop + Mobile] 
+Upper part changes https://www.screencast.com/t/2erItA7b7E
+Lower part changes https://www.screencast.com/t/i9S7xNr0uzpD
+For Terms & condition: We can use this free app to display the content according to different products.
+App Name: Metafields & Custom Fields
+URL:  https://apps.shopify.com/advanced-custom-field
+
+CREATE add-to-cart IDs https://www.screencast.com/t/rxvGMHRC
+CART PAGE https://www.screencast.com/t/SpXvGAhCa
+
+=======================================================================================================14 feb 
+The above requirements are completed so far we have created te Template for 29 products.
+>> as "new-layout"
+
+PRODUCT PAGE[ Desktop + Mobile] 
+>>
+Desktop view :https://www.screencast.com/t/K1RpF9xjmA
+Mobile View : https://www.screencast.com/t/vUFcwOSHsEDD
+
+Instruction to add product
+Step 1 : https://www.screencast.com/t/8qkP7ar8ns
+Step 2 : https://www.screencast.com/t/n2A5jSf5jJkM
+Step 3 : https://www.screencast.com/t/e5HVGHtSs
+Step 4 :  https://www.screencast.com/t/TgwWz26RxP
+Step 5 : https://www.screencast.com/t/UcFzSaocFzc 
+
+For Terms & condition: We Have created a Shopify metafields
+>> https://www.screencast.com/t/XIBDY6JiJE
+
+NOTE: Please write the Content In between tags only -- https://www.screencast.com/t/JItwCTEy
+
+instruction for gray section below to the terms and conditions
+Step 1 : https://www.screencast.com/t/RrtzaffXc
+Step 2 : https://www.screencast.com/t/kth83d2neYY
+Step 3 : https://www.screencast.com/t/7gzPgM9mzxmm
+Step 4 : https://www.screencast.com/t/Nz2nbNOeTFJr
+Step 5 : https://www.screencast.com/t/B9dgLy2yUkz
+
+We have Maintained add-to-cart page IDs inExcel sheet
+CREATE add-to-cart page:https://www.screencast.com/t/9z2wTijUi 
+CART PAGE :https://www.screencast.com/t/Ful1BnuUJ
+
+
+============================================================================================== 14 feb
+
+Theme : [Live] intelexusa_V1_12-Feb-22_Ambassador]
+URL : https://ux71em4bzmcym88o-28406808664.shopifypreview.com/pages/ambassador 
+Instructions 
+>>https://www.screencast.com/t/02u2ZQmkvk
+
+Mobile: https://www.screencast.com/t/KZTOHB9FV70
+Desktop: https://www.screencast.com/t/RFwzmbUj1wjo
+
+===================================================================================================28 feb
+theme:  [NEW] 17-Feb | Fashionopolism | 1208198|26-feb
+URL : https://vqz9fc4hdvm8btle-913742.shopifypreview.com/products/alfreda-anaglypta?pr_prod_strat=collection_fallback&pr_rec_id=7075ecb87&pr_rec_pid=5050000708&pr_ref_pid=6601342255179&pr_seq=uniform
+
+Show full pattern  >>https://www.screencast.com/t/jpPP9G0x4
+REmove url  >> https://www.screencast.com/t/DBjQIM5XrBdg
+collection >> https://www.screencast.com/t/HiR758sINne

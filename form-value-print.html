@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		* {  font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  font-weight: 300;  font-size: 16px; }
+span {font-weight: bold;}
+input, button {padding: 5px}
+button {   cursor: pointer }
+	</style>
+</head>
+<body>
+
+	<form action="javascript:void(0);" method="post" id="form">
+	  <input type="text" id="name-input" placeholder="Your name..." required autofocus />
+	  <button type="submit">OK</button>
+	</form>
+	<br /> Hello, <span id="name">guest</span> ! 
+
+</body>
+
+<script type="text/javascript">
+	$('#form').submit(function(e) {
+  $('#name').text($("#name-input").val());
+
+  // Prevent reload page
+  e.preventDefault();
+});
+</script>
+</html>

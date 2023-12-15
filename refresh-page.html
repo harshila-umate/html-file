@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<h1 id="text">First Text</h1>
+<button onclick="changeText()">Change Text</button>
+<button onclick="refreshPage()"><a href="">Refresh Page</a>  </button>
+
+</body>
+<script type="text/javascript">
+	function changeText() {
+  document.getElementById("text").innerHTML = "Second Text";
+}
+
+function refreshPage() {
+  // window.location.href = window.location.href;
+  location.reload();
+}
+
+</script>
+</html>
